@@ -6,4 +6,4 @@ b = int(array[1])
 
 c = (a+b)/(a-b)
 
-print(.2{c})
+print(f"{c:.2f}")
