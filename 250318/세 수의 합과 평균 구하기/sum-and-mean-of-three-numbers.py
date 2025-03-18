@@ -1,9 +1,10 @@
+# 변수 선언, 입력
 inp = input()
-array = inp.split(" ")
+arr = inp.split()
+a = int(arr[0])
+b = int(arr[1])
+c = int(arr[2])
 
-a = int(array[0])
-b = int(array[1])
-c = int(array[2])
-
-print(a+b+c)
-print(f"{(a+b+c)/3:.0f}")
+# 출력
+print(a + b + c)
+print((a + b + c) // 3)
